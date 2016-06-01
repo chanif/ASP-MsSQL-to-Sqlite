@@ -1,16 +1,11 @@
-lalala 
-asfads
-fdas
- fds
- f
-sd 
-fd
-s
-fsd
-f
-ds
- f
-ds
-f
-ds
-fs
+DROP TABLE t_cust;
+CREATE TABLE t_cust(Area VARCHAR(75) NULL,District VARCHAR(75) NULL,Teritorry VARCHAR(75) NULL,CustomerCode VARCHAR(75) NOT NULL,CustomerName VARCHAR(150) NULL,CustomerAddressLine1 VARCHAR(75) NULL,CustomerAddressLine2 VARCHAR(75) NULL,CustomerAddressLine3 VARCHAR(75) NULL,CustomerZipCode VARCHAR(75) NULL,CustomerCityCode VARCHAR(75) NULL,CustomerCountryCode VARCHAR(75) NULL,CustomerPhoneNumber VARCHAR(75) NULL,CustomerFaxNumber VARCHAR(75) NULL,CustomerMobileNumber VARCHAR(75) NULL,CustomerEmail VARCHAR(75) NULL,CustomerTaxNumber VARCHAR(75) NULL,CustomerTaxOffice VARCHAR(75) NULL,CustomerLicenceNumber VARCHAR(75) NULL,CustomerCreditLimit REAL(22, 2) NULL,CustomerFinanceCode VARCHAR(75) NULL,CustomerCurrency VARCHAR(75) NULL,CustomerDocCurrency VARCHAR(75) NULL,CustomerBank VARCHAR(75) NULL,CustomerAccount VARCHAR(75) NULL,CustomerIsBlocked CHAR(1) NULL,CustomerIsCreditCustomer CHAR(1) NULL,CustomerOwner VARCHAR(75) NULL,CustomerParentCustomerCode VARCHAR(250) NULL,CustomerParentCustomerName VARCHAR(250) NULL,CustomerIndustryVolume BIGINT NULL,CustomerInternalVolume BIGINT NULL,CustSegType VARCHAR(3) NULL,CustSegInternalClassification VARCHAR(75) NULL,CustSegIndustryClassification VARCHAR(75) NULL,CustSegQualityClassification VARCHAR(75) NULL,CustSegInternalClassificationDescription VARCHAR(75) NULL,CustSegIndustryClassificationDescription VARCHAR(75) NULL,CustSegQualityClassificationDescription VARCHAR(75) NULL,CustSegTradeCategory VARCHAR(75) NULL,CustSegSubTradeCategory VARCHAR(75) NULL,CustSegFrequency VARCHAR(75) NULL,CustSegTradeSegment VARCHAR(75) NULL,CustSegPlanogramStatus VARCHAR(75) NULL,CustSegPaymentTerm VARCHAR(75) NULL,CustSegStatus VARCHAR(75) NULL,CustomerRegisteredName VARCHAR(150) NULL,CustomerAvailableCreditNote REAL(30, 4) NULL,CustomerCreditNoteLimit REAL(30, 4) NULL,CustomerCashLimit REAL(30, 4) NULL,Cluster VARCHAR(75) NULL,AddressGeographicalX REAL(18, 6) NULL,AddressGeographicalY REAL(18, 6) NULL,Routing VARCHAR(80) NULL,CustSegCSUCustomer INT NULL,Cust_City VARCHAR(75) NULL,Cust_District VARCHAR(75) NULL,Provinsi VARCHAR(400) NULL,Dati_II VARCHAR(400) NULL,Kecamatan VARCHAR(400) NULL,Kelurahan VARCHAR(400) NULL);
+
+
+Name		Owner		Type		Created_datetime		
+
+t_cust		
+dbo		
+user table		
+20/04/2016 8:57:12		
+
